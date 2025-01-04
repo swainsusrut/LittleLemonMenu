@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		7AEEE9722D29BDDF0067F94B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A2164F92D26ABB600F2EDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2165002D26ABB600F2EDA3;
+			remoteInfo = LittleLemonMenu;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		7A2165012D26ABB600F2EDA3 /* LittleLemonMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEEE96E2D29BDDF0067F94B /* LittleLemonMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = LittleLemonMenu;
 			sourceTree = "<group>";
 		};
+		7AEEE96F2D29BDDF0067F94B /* LittleLemonMenuTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LittleLemonMenuTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7A2164FE2D26ABB600F2EDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEEE96B2D29BDDF0067F94B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2165032D26ABB600F2EDA3 /* LittleLemonMenu */,
+				7AEEE96F2D29BDDF0067F94B /* LittleLemonMenuTests */,
 				7A2165022D26ABB600F2EDA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2165012D26ABB600F2EDA3 /* LittleLemonMenu.app */,
+				7AEEE96E2D29BDDF0067F94B /* LittleLemonMenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 7A2165012D26ABB600F2EDA3 /* LittleLemonMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7AEEE96D2D29BDDF0067F94B /* LittleLemonMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AEEE9762D29BDDF0067F94B /* Build configuration list for PBXNativeTarget "LittleLemonMenuTests" */;
+			buildPhases = (
+				7AEEE96A2D29BDDF0067F94B /* Sources */,
+				7AEEE96B2D29BDDF0067F94B /* Frameworks */,
+				7AEEE96C2D29BDDF0067F94B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AEEE9732D29BDDF0067F94B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7AEEE96F2D29BDDF0067F94B /* LittleLemonMenuTests */,
+			);
+			name = LittleLemonMenuTests;
+			packageProductDependencies = (
+			);
+			productName = LittleLemonMenuTests;
+			productReference = 7AEEE96E2D29BDDF0067F94B /* LittleLemonMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					7A2165002D26ABB600F2EDA3 = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					7AEEE96D2D29BDDF0067F94B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7A2165002D26ABB600F2EDA3;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				7A2165002D26ABB600F2EDA3 /* LittleLemonMenu */,
+				7AEEE96D2D29BDDF0067F94B /* LittleLemonMenuTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7A2164FF2D26ABB600F2EDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEEE96C2D29BDDF0067F94B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AEEE96A2D29BDDF0067F94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AEEE9732D29BDDF0067F94B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A2165002D26ABB600F2EDA3 /* LittleLemonMenu */;
+			targetProxy = 7AEEE9722D29BDDF0067F94B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7A21650D2D26ABBB00F2EDA3 /* Debug */ = {
@@ -300,6 +375,40 @@
 			};
 			name = Release;
 		};
+		7AEEE9742D29BDDF0067F94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.susruts.LittleLemonMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemonMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemonMenu";
+			};
+			name = Debug;
+		};
+		7AEEE9752D29BDDF0067F94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.susruts.LittleLemonMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemonMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemonMenu";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +426,15 @@
 			buildConfigurations = (
 				7A2165102D26ABBB00F2EDA3 /* Debug */,
 				7A2165112D26ABBB00F2EDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AEEE9762D29BDDF0067F94B /* Build configuration list for PBXNativeTarget "LittleLemonMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEEE9742D29BDDF0067F94B /* Debug */,
+				7AEEE9752D29BDDF0067F94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
